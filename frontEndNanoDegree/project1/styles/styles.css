@@ -1,0 +1,20 @@
+body {
+    margin: 0
+}
+
+
+.home {
+    background-color: red;
+}
+
+.about {
+    background-color: #33BEBE;
+}
+
+.projects {
+    background-color: #637D92;
+}
+
+.contact {
+    background-color: #E2CF95;
+}
