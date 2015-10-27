@@ -4,7 +4,12 @@ body {
 
 
 .home {
-    background-color: red;
+    background-image: url("pattern.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .about {
