@@ -1,21 +1,64 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Scroll test</title>
-    <link rel="stylesheet" href="styles/styles.css">
-</head>
-<body>
-<main>
-    <section class="panel home">Bob</section>
-    <section class="panel about">Ben</section>
-    <section class="panel projects">Frank</section>
-    <section class="panel contact">Thearo</section>
-</main>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300, 100' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <header class="row header">
+      <div class="large-6 columns">
+        <img src="http://placebear.com/100/100" alt="bear logo">
+      </div>
+      <div class="large-6 columns text-right">
+        <h1>Ben Stoltz</h1>
+        <h4 class="subheader"><small>FRONT-END NINJA</small></h4>
+      </div>
+    </header>
 
+    <main>
+      <section class="row main-project">
+        <div class="large-12 columns">
+          <img src="http://placebear.com/1000/400" alt="Main Bear">
+        </div>
+      </section>
 
-<script src="scripts/jquery-1.6.js"></script>
-<script src="scripts/jquery.scrollify.js"></script>
-<script src="scripts/main-compiled.js"></script>
-</body>
+      <aside class="row featured-work-header">
+        <div class="large-12 columns">
+          <h3>Featured Work</h3>
+        </div>
+      </aside>
+
+      <section class="featured-work">
+        <div class="row work-images">
+          <div class="small-12 medium-6 large-4 columns">
+            <img src="http://placebear.com/300/200" alt="Main Bear">
+            <h4>Appify</h4>
+            <a href="https://github.com/udacity/Appify" class="link">https://github.com/udacity/Appify</a>
+          </div>
+          <div class="small-12 medium-6 large-4 columns">
+            <img src="http://placebear.com/300/200" alt="Main Bear">
+            <h4>Sunflower</h4>
+            <a href="https://github.com/udacity/Sunflower" class="link">https://github.com/udacity/Sunflower</a>
+          </div>
+          <div class="small-12 medium-6 large-4 columns end">
+            <img src="http://placebear.com/300/200" alt="Main Bear">
+            <h4>Bokeh</h4>
+            <a href="https://github.com/udacity/Bokeh" class="link">https://github.com/udacity/Bokeh</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>
